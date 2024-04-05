@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aed33799-a046-4c6b-ab5b-c1e55c050f39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/beginnertoexpert/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/beginnertoexpert/StringPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/beginnertoexpert/SubString.java" afterDir="false" />
+    <list default="true" id="aed33799-a046-4c6b-ab5b-c1e55c050f39" name="Changes" comment="Added classes SubString.java and StringPalindrome.java.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/beginnertoexpert/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/beginnertoexpert/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/beginnertoexpert/StringPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/beginnertoexpert/StringPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -85,19 +79,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712284696173</updated>
-      <workItem from="1712284697739" duration="4260000" />
+      <workItem from="1712284697739" duration="6184000" />
     </task>
+    <task id="LOCAL-00001" summary="Added classes SubString.java and StringPalindrome.java.">
+      <option name="closed" value="true" />
+      <created>1712292084048</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712292084048</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added classes SubString.java and StringPalindrome.java." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added classes SubString.java and StringPalindrome.java." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/beginnertoexpert/Main.java</url>
-          <line>15</line>
+          <line>17</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -107,12 +114,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/beginnertoexpert/StringPalindrome.java</url>
-          <line>42</line>
+          <line>70</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/beginnertoexpert/Main.java</url>
-          <line>12</line>
+          <line>14</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>

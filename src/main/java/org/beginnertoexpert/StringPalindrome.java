@@ -7,6 +7,34 @@ package org.beginnertoexpert;
 public class StringPalindrome {
 
     /**
+     * Checking for whether a string is palindrome or not without using temp string and concatination operation.
+     * @return
+     */
+    public boolean isPalindrome(String word){
+        int start = 0;
+        int end = word.length()-1;
+
+        word = word.toLowerCase();
+
+        while(start<end){
+
+            char charAtStart = word.charAt(start);
+            char charAtEnd = word.charAt(end);
+
+            if(!(charAtStart >='a' && charAtStart <='z')){
+                start++;
+            } else if (!(charAtEnd >='a' && charAtEnd <='z')) {
+                end--;
+            }else if (charAtStart == charAtEnd){ //actual palindrome check done..
+                start++;
+                end--;
+            }else{
+                return false;
+            }
+        }
+        return true;
+    }
+    /**
      * Iterative method to check whether a given string is palindrome or not.
      * We are using String concatenation for simplicity. Remember that String Concatenation is
      * costly operation in terms of performance and memory.

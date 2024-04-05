@@ -9,9 +9,11 @@ public class Main {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
        // printSubStrings
-         SubString subString = new SubString();
+         StringPalindrome stringPalindrome = new StringPalindrome();
+         System.out.println(stringPalindrome.isPalindrome("elie"));
+         /*SubString subString = new SubString();
         Map<String,Integer> map = subString.printSubStringsPalindromes("elle");
-        System.out.println(map);
+        System.out.println(map);*/
 
     }
 }
