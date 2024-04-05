@@ -1,5 +1,10 @@
 package org.beginnertoexpert;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /**
  * Implementing logics for verifying whether a given string is a palindrome or not.
  * Example : elle is a palindrome whereas ell is not.
@@ -71,5 +76,28 @@ public class StringPalindrome {
         StringBuilder tempWord = new StringBuilder(word);
 
         return tempWord.reverse().compareTo(new StringBuilder(word)) == 0;
+    }
+
+    /**
+     * Method to count palindrome words in a sentence.
+     */
+
+    public Map<String,Integer>  countPalindromeWords(String sentence){
+
+        Map<String,Integer> map = new HashMap<>();
+        String[] strings = sentence.toLowerCase().split(" ");
+        String result = "";
+        int count = 0;
+        for(String s:strings){
+            StringBuilder tempWord = new StringBuilder(s);
+
+            boolean status = tempWord.reverse().compareTo(new StringBuilder(s)) == 0;
+            if(status) {
+                result += s+" ";
+                count++;
+            }
+            map.put(result,count);
+        }
+        return map;
     }
 }

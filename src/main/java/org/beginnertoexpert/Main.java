@@ -10,7 +10,7 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
        // printSubStrings
          StringPalindrome stringPalindrome = new StringPalindrome();
-         System.out.println(stringPalindrome.isPalindrome("elie"));
+         System.out.println(stringPalindrome.countPalindromeWords("Madam Arora teaches malayalam"));
          /*SubString subString = new SubString();
         Map<String,Integer> map = subString.printSubStringsPalindromes("elle");
         System.out.println(map);*/
